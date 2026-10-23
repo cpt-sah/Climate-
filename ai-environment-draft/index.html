@@ -1,67 +1,134 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore the electricity, water and climate impacts behind artificial intelligence.">
-  <title>AI & Environment — Behind the Prompt</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Explore the electricity, water and climate impacts behind artificial intelligence.">
+    <title>AI & Environment — Behind the Prompt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand"><span class="brand-mark" aria-hidden="true">↗</span> AI <span class="amp">&</span> Environment</div>
-      <nav aria-label="Main navigation">
-        <!-- Assignment: navigation controls are visual only and do not navigate. -->
-        <button type="button" class="current" aria-current="page">Home</button>
-        <button type="button">Energy</button>
-        <button type="button">Water</button>
-        <button type="button">How to help</button>
-      </nav>
-    </div>
-  </header>
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/server-room.jpg" alt="Rows of server racks illuminated by blue and purple lights.">
-      <div class="hero-copy">
-        <p class="eyebrow">THE PHYSICAL SIDE OF A DIGITAL WORLD</p>
-        <h1 id="hero-title">Behind every prompt,<br>there’s a footprint.</h1>
-        <p>AI may feel invisible. The electricity that runs it, the water that cools it, and the resources behind it are real.</p>
-        <a class="article-link" href="https://www.iea.org/reports/energy-and-ai">Explore the IEA report <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="hero-caption">01 / THE INFRASTRUCTURE BEHIND AI</div>
-    </section>
-    <div class="section-heading"><h2>A digital tool. A physical impact.</h2><p>Follow the connections from servers to our planet.</p></div>
-    <div class="cards">
-      <section class="card" aria-labelledby="energy-title">
-        <div class="card-top"><span class="category">01 / ENERGY</span><span class="symbol" aria-hidden="true">↗</span></div>
-        <h3 id="energy-title">Powered by more<br>than a plug.</h3>
-        <p class="fact"><strong>AI needs electricity.</strong> Servers use power to train AI models and to generate responses when people use them. <a href="#source-iea" aria-label="Source 1">[1]</a></p>
-        <p class="fact"><strong>AI is driving demand.</strong> The IEA identifies AI as a major driver of growing data-center electricity use. <a href="#source-iea" aria-label="Source 1">[1]</a></p>
-        <figure><img src="assets/power-station.jpg" alt="Power station cooling towers and electricity transmission lines."><figcaption>The source of electricity shapes its climate impact. Visible cooling-tower plumes are largely water vapor.</figcaption></figure>
-      </section>
-      <section class="card water-card" aria-labelledby="water-title">
-        <div class="card-top"><span class="category">02 / WATER</span><span class="symbol" aria-hidden="true">≈</span></div>
-        <h3 id="water-title">Keeping cool<br>has a cost.</h3>
-        <div class="water-graphic" aria-hidden="true"><span>H₂O</span><div class="wave"></div></div>
-        <p class="fact"><strong>Cooling can consume water.</strong> Some data centers use evaporative cooling to remove heat, consuming water as it evaporates. <a href="#source-doe" aria-label="Source 2">[2]</a></p>
-        <p class="fact"><strong>Efficiency makes a difference.</strong> Reducing the heat that cooling systems must remove can reduce both energy use and cooling-tower water use. <a href="#source-doe" aria-label="Source 2">[2]</a></p>
-      </section>
-      <section class="card help-card" aria-labelledby="help-title">
-        <div class="card-top"><span class="category">03 / HOW TO HELP</span><span class="symbol" aria-hidden="true">+</span></div>
-        <h3 id="help-title">Better choices.<br>Smaller footprint.</h3>
-        <p class="fact"><strong>Power sources matter.</strong> Coal and natural gas used to supply data centers produce carbon dioxide, contributing to climate change. <a href="#source-supply" aria-label="Source 3">[3]</a></p>
-        <p class="fact"><strong>Cleaner power can help.</strong> Low-emission electricity can reduce the emissions associated with operating data centers. <a href="#source-supply" aria-label="Source 3">[3]</a></p>
-        <div class="takeaway"><p class="eyebrow">WHAT WE CAN ASK FOR</p><ul><li>Clear energy and water reporting</li><li>More efficient models and cooling</li><li>Cleaner electricity supplies</li></ul></div>
-      </section>
-    </div>
-    <aside class="context"><span aria-hidden="true">*</span><p><strong>Keep the context.</strong> Data centers also support websites, storage, streaming and other services. Their total environmental footprint cannot all be attributed to AI.</p></aside>
-    <section class="sources" aria-labelledby="sources-title"><h2 id="sources-title">Read beyond the headline.</h2><ol><li id="source-iea"><a href="https://www.iea.org/reports/energy-and-ai">IEA · Energy and AI</a></li><li id="source-doe"><a href="https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers">U.S. Department of Energy · Cooling Water Efficiency</a></li><li id="source-supply"><a href="https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai">IEA · Energy supply for AI</a></li></ol></section>
-  </main>
-  <footer><p class="brand">AI & Environment</p><p>Understand the footprint. Ask for better.</p><p>CSC 317 · Group Project 1 · Design draft</p></footer>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand"><span class="brand-mark" aria-hidden="true">↗</span> AI <span class="amp">&</span>
+                Environment</div>
+            <nav aria-label="Main navigation">
+                <!-- Assignment: navigation controls are visual only and do not navigate. -->
+                <button type="button" class="current" aria-current="page">Home</button>
+                <button type="button">Energy</button>
+                <button type="button">Water</button>
+                <button type="button">How to help</button>
+            </nav>
+            <!-- CSS-only mobile hamburger: details opens and closes on tap. -->
+            <details class="mobile-menu">
+                <summary aria-label="Toggle mobile navigation">
+                    <span class="hamburger-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+                </summary>
+                <nav aria-label="Mobile navigation">
+                    <a href="#main">Home</a>
+                    <a href="#energy-title">Energy</a>
+                    <a href="#water-title">Water</a>
+                    <a href="#help-title">How to help</a>
+                </nav>
+            </details>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image" src="assets/server-room.jpg"
+                alt="Rows of server racks illuminated by blue and purple lights.">
+            <div class="hero-copy">
+                <p class="eyebrow">THE PHYSICAL SIDE OF A DIGITAL WORLD</p>
+                <h1 id="hero-title">Behind every prompt,<br>there’s a footprint.</h1>
+                <p>AI may feel invisible. The electricity that runs it, the water that cools it, and the resources
+                    behind it are real.</p>
+                <a class="article-link" href="https://www.iea.org/reports/energy-and-ai">Explore the IEA report <span
+                        aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-caption">01 / THE INFRASTRUCTURE BEHIND AI</div>
+        </section>
+        <div class="section-heading">
+            <h2>A digital tool. A physical impact.</h2>
+            <p>Follow the connections from servers to our planet.</p>
+        </div>
+        <div class="cards">
+            <section class="card" aria-labelledby="energy-title">
+                <div class="card-top"><span class="category">01 / ENERGY</span><span class="symbol"
+                        aria-hidden="true">↗</span></div>
+                <h3 id="energy-title">Powered by more<br>than a plug.</h3>
+                <p class="fact"><strong>AI needs electricity.</strong> Servers use power to train AI models and to
+                    generate responses when people use them. <a href="#source-iea" aria-label="Source 1">[1]</a></p>
+                <p class="fact"><strong>AI is driving demand.</strong> The IEA identifies AI as a major driver of
+                    growing data-center electricity use. <a href="#source-iea" aria-label="Source 1">[1]</a></p>
+                <figure><img src="assets/power-station.jpg"
+                        alt="Power station cooling towers and electricity transmission lines.">
+                    <figcaption>The source of electricity shapes its climate impact. Visible cooling-tower plumes are
+                        largely water vapor.</figcaption>
+                </figure>
+            </section>
+            <section class="card water-card" aria-labelledby="water-title">
+                <div class="card-top"><span class="category">02 / WATER</span><span class="symbol"
+                        aria-hidden="true">≈</span></div>
+                <h3 id="water-title">Keeping cool<br>has a cost.</h3>
+                <div class="water-graphic" aria-hidden="true"><span>H₂O</span>
+                    <div class="wave"></div>
+                </div>
+                <p class="fact"><strong>Cooling can consume water.</strong> Some data centers use evaporative cooling to
+                    remove heat, consuming water as it evaporates. <a href="#source-doe" aria-label="Source 2">[2]</a>
+                </p>
+                <p class="fact"><strong>Efficiency makes a difference.</strong> Reducing the heat that cooling systems
+                    must remove can reduce both energy use and cooling-tower water use. <a href="#source-doe"
+                        aria-label="Source 2">[2]</a></p>
+            </section>
+            <section class="card help-card" aria-labelledby="help-title">
+                <div class="card-top"><span class="category">03 / HOW TO HELP</span><span class="symbol"
+                        aria-hidden="true">+</span></div>
+                <h3 id="help-title">Better choices.<br>Smaller footprint.</h3>
+                <p class="fact"><strong>Power sources matter.</strong> Coal and natural gas used to supply data centers
+                    produce carbon dioxide, contributing to climate change. <a href="#source-supply"
+                        aria-label="Source 3">[3]</a></p>
+                <p class="fact"><strong>Cleaner power can help.</strong> Low-emission electricity can reduce the
+                    emissions associated with operating data centers. <a href="#source-supply"
+                        aria-label="Source 3">[3]</a></p>
+                <div class="takeaway">
+                    <p class="eyebrow">WHAT WE CAN ASK FOR</p>
+                    <ul>
+                        <li>Clear energy and water reporting</li>
+                        <li>More efficient models and cooling</li>
+                        <li>Cleaner electricity supplies</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <aside class="context"><span aria-hidden="true">*</span>
+            <p><strong>Keep the context.</strong> Data centers also support websites, storage, streaming and other
+                services. Their total environmental footprint cannot all be attributed to AI.</p>
+        </aside>
+        <section class="sources" aria-labelledby="sources-title">
+            <h2 id="sources-title">Read beyond the headline.</h2>
+            <ol>
+                <li id="source-iea"><a href="https://www.iea.org/reports/energy-and-ai">IEA · Energy and AI</a></li>
+                <li id="source-doe"><a
+                        href="https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers">U.S.
+                        Department of Energy · Cooling Water Efficiency</a></li>
+                <li id="source-supply"><a href="https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai">IEA ·
+                        Energy supply for AI</a></li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p class="brand">AI & Environment</p>
+        <p>Understand the footprint. Ask for better.</p>
+        <p>CSC 317 · Group Project 1 · Design draft</p>
+    </footer>
 </body>
+
 </html>
